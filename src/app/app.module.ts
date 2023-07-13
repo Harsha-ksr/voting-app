@@ -10,6 +10,7 @@ import { VotingHomeComponent } from './voting-home/voting-home.component';
 import { CreateQuestionComponent } from './create-question/create-question.component';
 import { CastVoteComponent } from './cast-vote/cast-vote.component';
 import { ViewResultsComponent } from './view-results/view-results.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ViewResultsComponent } from './view-results/view-results.component';
     VotingHomeComponent,
     CreateQuestionComponent,
     CastVoteComponent,
-    ViewResultsComponent
+    ViewResultsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

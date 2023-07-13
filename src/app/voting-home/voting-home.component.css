@@ -64,10 +64,12 @@ content formatting below is not relevant to nav bar
 #home, #navbar, #scrollspy, #format{
   text-align: left;
   margin-left: 50px;
+  text-decoration: underline;
 }
 
 #home ul, #navbar ul, #scrollspy ul{
   font-size: 20px;
+  text-decoration: underline;
 }
 
 a {
@@ -103,4 +105,10 @@ img {
   width: 800px;
   margin-top: 30px;
   margin-bottom: 50px;
+}
+.name {
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 5px;
+  cursor: pointer;
 }
