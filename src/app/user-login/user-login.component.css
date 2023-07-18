@@ -122,3 +122,8 @@ button{
 .social i{
   margin-right: 4px;
 }
+
+.error{
+    color: brown !important;
+}
+  

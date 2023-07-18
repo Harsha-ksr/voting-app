@@ -10,15 +10,16 @@
   <div *ngIf="name.invalid && (name.dirty || name.touched)"
     class="alert">
 
-  <div *ngIf="name.errors?.['required']">
+  <div class="error" *ngIf="name.errors?.['required']">
     User Name is required.
   </div>
-  <div *ngIf="name.errors?.['pattern']">
+  <div class="error" *ngIf="name.errors?.['pattern']">
     Please enter only alpha-numeric characters.
   </div>
-  <div *ngIf="name.errors?.['minlength']">
+  <div class="error" *ngIf="name.errors?.['minlength']">
     Username length cannot be less than 5.
   </div>
+  
 
   </div>
 

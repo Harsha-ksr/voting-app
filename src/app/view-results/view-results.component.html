@@ -1,5 +1,7 @@
 <app-header></app-header>
+<body >
 <h1>Voting Results</h1>
+<div class="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -13,8 +15,10 @@
     <tr *ngFor="let row of votesPerQuestion">
       <td>{{ row.question }}</td>
       <td>{{ row.totalVotes }}</td>
-      <td>{{ row.percY }}%</td>
-      <td>{{ row.percN }}%</td>
+      <td class="yes">{{ row.percY }}%</td>
+      <td class="no">{{ row.percN }}%</td>
     </tr>
   </tbody>
 </table>
+</div>
+</body>

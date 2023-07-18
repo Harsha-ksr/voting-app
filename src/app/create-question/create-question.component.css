@@ -71,7 +71,7 @@ a {
 }
 
 h1 {
-  margin-bottom: 100px;
+  margin-bottom: 75px;
   margin-top: 75px;
   font-weight: bold;
   text-align: center;
@@ -102,4 +102,8 @@ img {
   width: 800px;
   margin-top: 30px;
   margin-bottom: 50px;
+}
+
+.error{
+  color: red;
 }

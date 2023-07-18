@@ -50,21 +50,25 @@ export class CreateQuestionComponent {
             }
             else{
               this.createQuestionStatus = 'Error creating question. Please try again!'
+              this.hasQuestion=false;
             }
           },
           error: error => {
             this.errorMessage = error.message;
             console.error('There was an error!', error);
+            this.hasQuestion=false;
         }
         })
        }
        else{
         this.createQuestionStatus = 'Question already exists in the database. Please try entering a different question.'
+        this.hasQuestion=false;
        }
     },
     error: error => {
       this.errorMessage = error.message;
       console.error('There was an error!', error);
+      this.hasQuestion=false;
   }
 });
   }

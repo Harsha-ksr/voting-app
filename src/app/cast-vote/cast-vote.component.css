@@ -75,7 +75,7 @@ a {
 }
 
 h1 {
-  margin-bottom: 100px;
+  margin-bottom: 75px;
   margin-top: 75px;
   font-weight: bold;
   text-align: center;
@@ -88,6 +88,8 @@ h1 {
 
 h2 {
   margin-top: 50px;
+  font-weight: 500;
+
 }
 
 h3 {

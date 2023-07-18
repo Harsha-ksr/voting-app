@@ -122,3 +122,40 @@ img {
   margin-top: 30px;
   margin-bottom: 50px;
 }
+.bar {
+  display: flex;
+  height: 20px;
+  width: 300px;
+  border: 1px solid #000;
+}
+
+.yes {
+  background-color:#7ED957;
+  color: #333333;
+  font-weight: 200;
+}
+
+.no {
+  background-color: #F6A69D;
+  color: #333333;
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+table {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  /* Additional font styling properties */
+}
+
+table th {
+  font-weight: bold;
+}
+
+table td {
+  font-style:normal;
+}
